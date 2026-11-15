@@ -153,6 +153,7 @@ input{font:inherit}
 .carte-champs strong{font-size:14px;font-weight:800;color:#0d2b20;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .carte-specimen{position:absolute;right:-38px;top:22px;transform:rotate(35deg);background:#a10b2b;color:#fff;font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;padding:4px 44px}
 
+.video-cadre{position:relative;box-shadow:0 30px 60px rgba(0,0,0,.4);border-radius:12px}
 /* Logos partenaires */
 .logo-carte{position:relative;display:flex;align-items:center;justify-content:center;min-height:180px;padding:40px 28px 28px;background:var(--papier);border:1px solid var(--filet);border-radius:10px;text-decoration:none;overflow:hidden;transition:transform .3s ease,box-shadow .3s ease,border-color .3s,background .3s}
 .logo-carte img{max-width:100%;width:auto;height:auto;filter:grayscale(1);opacity:.75;transition:filter .4s ease,opacity .4s ease,transform .4s ease}
@@ -230,6 +231,7 @@ html{scroll-behavior:smooth}
 <nav class="nav" id="nav-principale" aria-label="Main navigation">
 <a href="#institution">The institution</a>
 <a href="#programmes">Music Worksites</a>
+<a href="#video">Video</a>
 <a href="#observatoire">Observatory</a>
 <a href="#ressources">Publications</a>
 <a href="#actualites">News</a>
@@ -398,6 +400,27 @@ html{scroll-behavior:smooth}
 </div>
 </section>
 
+<!-- Vidéo -->
+<section id="video" aria-labelledby="video-titre" style="background: var(--vert-nuit); color: var(--papier); padding: 104px 0">
+<div class="wrap">
+<div class="rv" style="display: flex; justify-content: space-between; align-items: end; gap: 24px; flex-wrap: wrap; margin-bottom: 36px">
+<div style="max-width: 760px">
+<p style="margin: 0 0 16px; font-size: 13px; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--ambre)">On video</p>
+<h2 id="video-titre" class="serif" style="margin: 0; font-size: 44px; line-height: 1.1">The Cameroon Music Worksites in four minutes</h2>
+<p style="margin: 16px 0 0; font-size: 18px; color: #d6e2d9">From the legacy of makossa to the development plan: the findings, the figures and the way forward put forward by the CCM.</p>
+</div>
+<a class="lien" href="../media/chantiers-ccm-2025.mp4" download style="color: var(--ambre)">Download the video (MP4)</a>
+</div>
+<figure class="rv video-cadre" style="margin: 0">
+<video controls preload="none" playsinline poster="../assets/video-chantiers-poster.jpg" style="display: block; width: 100%; aspect-ratio: 1280 / 690; background: #000; border-radius: 12px">
+<source src="../media/chantiers-ccm-2025.mp4" type="video/mp4">
+Your browser cannot play this video.
+</video>
+<figcaption style="margin-top: 14px; font-size: 13px; color: #a9bdb0">Video · Cameroon Music Worksites · CCM, 2025 · 4 min · in French</figcaption>
+</figure>
+</div>
+</section>
+
 <!-- Observatoire interactif -->
 <section id="observatoire" class="section">
 <div class="wrap">
@@ -524,7 +547,7 @@ html{scroll-behavior:smooth}
 <h2 class="h2">A transparent, democratic association</h2>
 <p class="lead">Registered under no. 133/2009/RDDA/C19/BAPP, the CCM amended its statutes and elected its executive board at the general assemblies held in Yaoundé on 31 March 2021.</p>
 <div style="display: flex; gap: 24px; align-items: center; margin-top: 36px; padding: 24px; background: #fff; border: 1px solid var(--filet); border-radius: 8px">
-<div aria-hidden="true" style="width: 72px; height: 72px; border-radius: 50%; background: var(--surface); display: flex; align-items: center; justify-content: center; color: var(--gris); font-size: 12px; text-align: center; flex-shrink: 0">Portrait</div>
+<img src="../assets/president-didier-ngadjui-toko.jpg" alt="Didier Ngadjui Toko, President of the Cameroon Music Council" width="112" height="112" style="width: 112px; height: 112px; border-radius: 50%; object-fit: cover; flex-shrink: 0; border: 3px solid var(--ambre)">
 <div>
 <p style="margin: 0; font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--bordeaux)">President</p>
 <p class="serif" style="margin: 4px 0 0; font-size: 24px; color: var(--vert)">Didier Ngadjui Toko</p>
