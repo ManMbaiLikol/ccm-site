@@ -7,7 +7,8 @@
 <meta name="description" content="Le Conseil Camerounais de la Musique fédère les professionnels de la musique au Cameroun : Chantiers musicaux, observatoire, schéma de développement de l'industrie musicale, adhésion.">
 <meta property="og:title" content="Conseil Camerounais de la Musique">
 <meta property="og:description" content="Bâtir une industrie musicale camerounaise compétitive, viable et rentable.">
-<meta property="og:image" content="assets/groupe-chantiers.jpg">
+<meta property="og:image" content="https://manmbailikol.github.io/ccm-site/assets/partage-ccm.jpg">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="fr_FR">
 <link rel="alternate" hreflang="fr" href="https://manmbailikol.github.io/ccm-site/">
@@ -17,191 +18,9 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&amp;family=Inter:wght@400;500;600;700&amp;family=Montserrat:ital,wght@0,500;0,700;0,800;1,500&amp;display=swap" rel="stylesheet">
-<style>
-body{margin:0;background:#eff5f0}
-a{color:#106938}a:hover{color:#a10b2b}
-.ccm{--vert:#106938;--vert-nuit:#002a11;--bordeaux:#a10b2b;--ambre:#ffab00;--ambre-texte:#a05f00;--lilas:#bfabcc;--papier:#eff5f0;--surface:#e2eae4;--filet:#cdd7d0;--encre:#0f1912;--gris:#4f5851;font-family:Inter,system-ui,sans-serif;color:var(--encre);background:var(--papier);font-size:16px;line-height:1.6}
-.ccm *{box-sizing:border-box}
-.wrap{max-width:1200px;margin:0 auto;padding:0 40px}
-.serif{font-family:Fraunces,Georgia,serif;font-weight:500;letter-spacing:-0.01em}
-.eyebrow{font-size:13px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--bordeaux);margin:0 0 16px}
-.h2{font-family:Fraunces,Georgia,serif;font-weight:500;font-size:44px;line-height:1.1;margin:0;color:var(--vert)}
-.lead{font-size:19px;color:var(--gris);max-width:680px;margin:16px 0 0}
-.btn{display:inline-flex;align-items:center;gap:10px;min-height:48px;padding:0 24px;border-radius:4px;font-weight:600;font-size:15px;text-decoration:none;border:2px solid transparent;font-family:inherit;cursor:pointer;transition:transform .2s ease,background .2s ease,color .2s ease}
-.btn:hover{transform:translateY(-2px)}
-.btn svg{transition:transform .2s ease}.btn:hover svg{transform:translateX(4px)}
-.btn-ambre{background:var(--ambre);color:var(--encre)}.btn-ambre:hover{background:#ffbe3d;color:var(--encre)}
-.btn-ligne{border-color:var(--papier);color:var(--papier);background:transparent}.btn-ligne:hover{background:var(--papier);color:var(--vert)}
-.btn-vert{background:var(--vert);color:var(--papier)}.btn-vert:hover{background:var(--vert-nuit);color:var(--papier)}
-.btn-contour{border-color:var(--vert);color:var(--vert);background:transparent}.btn-contour:hover{background:var(--vert);color:var(--papier)}
-.lien{font-weight:600;color:var(--vert);text-decoration:none;display:inline-flex;align-items:center;gap:8px;background-image:linear-gradient(var(--ambre),var(--ambre));background-size:0 2px;background-repeat:no-repeat;background-position:0 100%;transition:background-size .3s ease,color .2s}
-.lien:hover{color:var(--bordeaux);background-size:100% 2px}
-.section{padding:104px 0}
-.grid4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
-.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
-.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:64px;align-items:start}
-.nav{display:flex;gap:28px;align-items:center}
-.nav a{color:var(--encre);text-decoration:none;font-weight:500;font-size:15px;padding:10px 0;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
-.nav a:hover{color:var(--vert);border-bottom-color:var(--ambre)}
-.carte{background:#fff;border:1px solid var(--filet);border-radius:8px;padding:32px;display:flex;flex-direction:column;gap:14px;transition:transform .3s ease,box-shadow .3s ease,border-color .3s}
-.carte:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(0,42,17,.10);border-color:var(--vert)}
-.icone{width:48px;height:48px;border-radius:50%;background:var(--surface);display:flex;align-items:center;justify-content:center;color:var(--vert);transition:background .3s,color .3s}
-.carte:hover .icone{background:var(--vert);color:var(--papier)}
-.chiffre{font-family:Fraunces,Georgia,serif;font-size:56px;line-height:1;color:var(--ambre);font-weight:500;margin:0;font-variant-numeric:tabular-nums}
-.chiffre-vert{font-family:Fraunces,Georgia,serif;font-size:48px;line-height:1;color:var(--vert);font-weight:500;margin:0;font-variant-numeric:tabular-nums}
-.tag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--surface);color:var(--vert)}
-.photo{width:100%;display:block;object-fit:cover;border-radius:8px}
-.source{font-size:13px;color:var(--gris);margin:0}
-.pied a{color:#d6e2d9;text-decoration:none}.pied a:hover{color:var(--ambre)}
-input{font:inherit}
-
-/* Apparition à l'arrivée */
-@keyframes monte{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
-.entree{animation:monte .9s cubic-bezier(.2,.7,.2,1) both}
-.d1{animation-delay:.15s}.d2{animation-delay:.3s}.d3{animation-delay:.45s}.d4{animation-delay:.6s}
-
-/* Apparition au défilement */
-@supports (animation-timeline: view()){
-.rv{animation:monte linear both;animation-timeline:view();animation-range:entry 0% cover 22%}
-.rv-g{animation:glisse linear both;animation-timeline:view();animation-range:entry 0% cover 25%}
-}
-@keyframes glisse{from{opacity:0;transform:translateX(-40px)}to{opacity:1;transform:none}}
-
-/* Diaporama du héros */
-.diapo{position:absolute;inset:0;overflow:hidden}
-.diapo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;animation:fondu 18s infinite}
-.diapo img:nth-child(1){animation-delay:0s}.diapo img:nth-child(2){animation-delay:6s}.diapo img:nth-child(3){animation-delay:12s}
-@keyframes fondu{0%{opacity:0;transform:scale(1.08)}6%{opacity:1}33%{opacity:1}40%{opacity:0;transform:scale(1)}100%{opacity:0}}
-
-/* Égaliseur */
-.eq{display:flex;align-items:flex-end;gap:6px;height:56px}
-.eq span{width:8px;height:100%;border-radius:4px;background:var(--ambre);transform-origin:bottom;animation:eq 1.2s ease-in-out infinite alternate}
-.eq span:nth-child(2n){animation-duration:.9s;background:var(--papier)}
-.eq span:nth-child(3n){animation-duration:1.5s}
-.eq span:nth-child(4n){animation-duration:.7s;background:#e05a6f}
-.eq span:nth-child(5n){animation-duration:1.1s}
-@keyframes eq{0%{transform:scaleY(.15)}50%{transform:scaleY(.8)}100%{transform:scaleY(.35)}}
-
-/* Défilé des rythmes */
-.defile{overflow:hidden;white-space:nowrap}
-.defile-piste{display:inline-flex;gap:56px;padding-right:56px;animation:defile 40s linear infinite}
-.defile-lent .defile-piste{animation-duration:60s;animation-direction:reverse}
-.defile:hover .defile-piste{animation-play-state:paused}
-@keyframes defile{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
-/* Barres animées */
-.barre{height:16px;border-radius:8px;background:var(--surface);overflow:hidden}
-.barre span{display:block;height:100%;border-radius:8px;animation:pousse 1.1s cubic-bezier(.2,.7,.2,1) both;transition:width .8s cubic-bezier(.2,.7,.2,1)}
-@keyframes pousse{from{width:0}}
-
-/* Onglets et pastilles */
-.onglet{font:inherit;font-size:15px;font-weight:600;padding:10px 18px;min-height:44px;border-radius:999px;border:1px solid var(--filet);background:#fff;color:var(--encre);cursor:pointer;transition:all .2s}
-.onglet:hover{border-color:var(--vert);color:var(--vert)}
-.onglet-actif{background:var(--vert);border-color:var(--vert);color:var(--papier)}
-.onglet-actif:hover{color:var(--papier)}
-
-/* Points Boomplay */
-.points{display:grid;grid-template-columns:repeat(22,minmax(0,1fr));gap:5px}
-.points i{display:block;aspect-ratio:1;border-radius:50%;background:rgba(239,245,240,.22);animation:point .4s ease both;animation-delay:calc(var(--i) * 6ms)}
-.points i.payant{background:var(--ambre);box-shadow:0 0 0 4px rgba(255,171,0,.35);animation:point .4s ease both,pulse 1.6s ease-in-out 2.5s infinite}
-@keyframes point{from{transform:scale(0)}}
-@keyframes pulse{50%{box-shadow:0 0 0 9px rgba(255,171,0,0)}}
-
-/* Anneaux */
-.anneaux{position:absolute;inset:0;overflow:hidden;pointer-events:none}
-.anneaux i{position:absolute;left:18%;top:50%;width:240px;height:240px;margin:-120px 0 0 -120px;border-radius:50%;border:2px solid rgba(255,171,0,.5);animation:onde 6s linear infinite}
-.anneaux i:nth-child(2){animation-delay:1.5s}.anneaux i:nth-child(3){animation-delay:3s}.anneaux i:nth-child(4){animation-delay:4.5s}
-@keyframes onde{from{transform:scale(.3);opacity:.9}to{transform:scale(4.5);opacity:0}}
-
-/* Étapes */
-.etape-photo{animation:apparait .7s ease both}
-@keyframes apparait{from{opacity:0;transform:scale(1.03)}to{opacity:1;transform:none}}
-.progression{height:3px;background:rgba(15,25,18,.15);border-radius:2px;overflow:hidden}
-.progression span{display:block;height:100%;background:var(--bordeaux);animation:remplit 7s linear both}
-@keyframes remplit{from{width:0}to{width:100%}}
-
-/* Galerie */
-.galerie a{display:block;overflow:hidden;border-radius:8px}
-.galerie img{transition:transform .6s ease}
-.galerie a:hover img{transform:scale(1.06)}
-
-
-/* Carte de membre */
-.carte3d{width:100%;max-width:560px;aspect-ratio:1.6/1;perspective:1600px}
-.carte3d-flotte{width:100%;height:100%;animation:flotte 6s ease-in-out infinite}
-@keyframes flotte{0%,100%{transform:translateY(0) rotate(-1.5deg)}50%{transform:translateY(-10px) rotate(0.5deg)}}
-.carte3d-inner{position:relative;width:100%;height:100%;transform-style:preserve-3d;transition:transform .9s cubic-bezier(.3,.7,.2,1)}
-.carte3d.retournee .carte3d-inner{transform:rotateY(180deg)}
-.carte-face{position:absolute;inset:0;border-radius:22px;backface-visibility:hidden;-webkit-backface-visibility:hidden;overflow:hidden;box-shadow:0 30px 60px rgba(0,0,0,.35),0 2px 0 rgba(255,255,255,.4) inset;font-family:Montserrat,Inter,sans-serif}
-.carte-recto{background:#f7f1e5;color:#0d2b20;padding:6% 6.5%;display:flex;flex-direction:column;gap:4%}
-.carte-recto::before{content:"";position:absolute;inset:0;background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.55) 48%,transparent 60%);transform:translateX(-120%);animation:reflet 7s ease-in-out 1.5s infinite;pointer-events:none}
-@keyframes reflet{0%,70%{transform:translateX(-120%)}100%{transform:translateX(120%)}}
-.carte-verso{background:#06392b;transform:rotateY(180deg);padding:9% 8% 8%;display:flex;flex-direction:column;align-items:center;gap:5%}
-.carte-titre{font-weight:700;text-transform:uppercase;letter-spacing:.03em;color:#0d2b20}
-.carte-sous{font-weight:500;text-transform:uppercase;letter-spacing:.12em;color:#0d2b20}
-.carte-nom{font-weight:800;text-transform:uppercase;letter-spacing:.01em;color:#0d2b20;line-height:1.15}
-.carte-filet{display:flex;align-items:center;gap:10px;width:100%}
-.carte-filet i{flex:1;height:1.5px;background:#c9a24a}
-.carte-filet .tri{display:flex;gap:3px}
-.carte-filet .tri b{display:block;width:16px;height:6px;border-radius:1px}
-.carte-photo{background:linear-gradient(160deg,#e4ddcf,#d3cbbb);border-radius:4px;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;min-height:120px}
-.carte-champs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1.5px solid #c9a24a}
-.carte-champs div{padding:6px 8px 6px 0;border-bottom:1.5px solid #c9a24a;display:flex;flex-direction:column}
-.carte-champs div:nth-child(odd){border-right:1.5px solid #c9a24a}
-.carte-champs div:nth-child(even){padding-left:10px}
-.carte-champs span{font-size:9.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#33433a}
-.carte-champs strong{font-size:14px;font-weight:800;color:#0d2b20;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.carte-specimen{position:absolute;right:-38px;top:22px;transform:rotate(35deg);background:#a10b2b;color:#fff;font-size:10px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;padding:4px 44px}
-
-.video-cadre{position:relative;box-shadow:0 30px 60px rgba(0,0,0,.4);border-radius:12px}
-/* Logos partenaires */
-.logo-carte{position:relative;display:flex;align-items:center;justify-content:center;min-height:180px;padding:40px 28px 28px;background:var(--papier);border:1px solid var(--filet);border-radius:10px;text-decoration:none;overflow:hidden;transition:transform .3s ease,box-shadow .3s ease,border-color .3s,background .3s}
-.logo-carte img{max-width:100%;width:auto;height:auto;filter:grayscale(1);opacity:.75;transition:filter .4s ease,opacity .4s ease,transform .4s ease}
-.logo-carte:hover{transform:translateY(-4px);background:#fff;border-color:var(--vert);box-shadow:0 18px 40px rgba(0,42,17,.10)}
-.logo-carte:hover img{filter:none;opacity:1;transform:scale(1.04)}
-.logo-carte::after{content:"";position:absolute;left:0;bottom:0;height:3px;width:0;background:var(--ambre);transition:width .4s ease}
-.logo-carte:hover::after{width:100%}
-.logo-type{position:absolute;top:14px;left:18px;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--gris)}
-@media (hover: none){.logo-carte img{filter:none;opacity:1}}
-
-@media (prefers-reduced-motion: reduce){
-.ccm *,.ccm *::before{animation:none !important;transition:none !important}
-.diapo img:first-child{opacity:1}
-}
-@media (max-width:900px){
-.wrap{padding:0 20px}
-.grid4{grid-template-columns:repeat(2,minmax(0,1fr))}
-.grid3,.grid2{grid-template-columns:minmax(0,1fr);gap:32px}
-.nav{display:none}
-.hero-titre{font-size:42px !important}
-.h2{font-size:34px}
-.section{padding:64px 0}
-.hero-grille,.phase-ligne,.monde-grille,.adhesion-grille{grid-template-columns:minmax(0,1fr) !important}
-.bandeau,.pied-grille,.galerie,.logos{grid-template-columns:repeat(2,minmax(0,1fr)) !important}
-.galerie a{grid-column:auto !important;grid-row:auto !important}
-.points{grid-template-columns:repeat(16,minmax(0,1fr))}
-}
-@media (max-width:520px){.grid4,.bandeau,.pied-grille,.galerie,.logos{grid-template-columns:minmax(0,1fr) !important}}
-</style>
-
-<style>
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}}
-[id]{scroll-margin-top:100px}
-.etape-onglet{font:inherit;text-align:left;cursor:pointer;padding:18px 20px;border-radius:10px;min-height:44px;transition:all .25s;color:var(--encre);background:rgba(239,245,240,.55);border:2px solid transparent}
-.etape-onglet:hover{background:rgba(239,245,240,.85)}
-.etape-active{background:var(--papier);border-color:var(--bordeaux);box-shadow:0 10px 24px rgba(15,25,18,.12)}
-.menu-btn{display:none;width:48px;height:48px;align-items:center;justify-content:center;border:1px solid var(--filet);border-radius:6px;background:#fff;color:var(--encre);cursor:pointer}
-.points i{display:block}
-@media (max-width:900px){
-.menu-btn{display:inline-flex}
-.entete-cta{display:none !important}
-.nav.ouvert{display:flex !important;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch !important;gap:0 !important;background:var(--papier);border-bottom:1px solid var(--filet);box-shadow:0 18px 30px rgba(0,0,0,.08);padding:8px 20px 16px}
-.nav.ouvert a{padding:14px 0;border-bottom:1px solid var(--filet)}
-#etapes-onglets{grid-template-columns:minmax(0,1fr) !important}
-.phase-ligne > div:last-child{padding:28px !important}
-}
-</style>
+<link rel="stylesheet" href="assets/css/site.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Organization", "name": "Conseil Camerounais de la Musique", "alternateName": ["CCM", "Cameroon Music Council"], "url": "https://manmbailikol.github.io/ccm-site/", "logo": "https://manmbailikol.github.io/ccm-site/assets/logo-ccm.webp", "foundingDate": "2009-09-14", "foundingLocation": "Douala", "email": "infos@ccm-cmc.org", "telephone": "+237690939633", "address": {"@type": "PostalAddress", "streetAddress": "Bonamoussadi, Antenne Kotto", "addressLocality": "Douala", "addressCountry": "CM"}, "memberOf": {"@type": "Organization", "name": "Conseil international de la musique"}}</script>
+<!-- STATS -->
 </head>
 <body>
 
@@ -212,8 +31,8 @@ html{scroll-behavior:smooth}
 <div class="wrap" style="display: flex; justify-content: space-between; align-items: center; min-height: 40px; gap: 16px; flex-wrap: wrap">
 <span>Association à but non lucratif et apolitique · Membre du réseau du Conseil international de la musique</span>
 <div style="display: flex; gap: 20px; align-items: center">
-<a href="#presse" style="color: #d6e2d9; text-decoration: none">Espace presse</a>
-<a href="#annuaire" style="color: #d6e2d9; text-decoration: none">Annuaire des professionnels</a>
+<a href="actualites/" style="color: #d6e2d9; text-decoration: none">Espace presse</a>
+<a href="annuaire/" style="color: #d6e2d9; text-decoration: none">Annuaire des professionnels</a>
 <div role="group" aria-label="Langue" style="display: flex; gap: 4px">
 <a href="./" aria-current="true" style="color: var(--ambre); font-weight: 700; text-decoration: none; padding: 4px 6px">FR</a>
 <a href="en/" hreflang="en" lang="en" style="color: #d6e2d9; text-decoration: none; padding: 4px 6px">EN</a>
@@ -229,12 +48,11 @@ html{scroll-behavior:smooth}
 <img src="assets/logo-ccm.webp" alt="Logo du Conseil Camerounais de la Musique" style="height: 64px; width: auto; display: block">
 </a>
 <nav class="nav" id="nav-principale" aria-label="Navigation principale">
-<a href="#institution">L'institution</a>
-<a href="#programmes">Chantiers musicaux</a>
-<a href="#video">Vidéo</a>
-<a href="#observatoire">Observatoire</a>
-<a href="#ressources">Publications</a>
-<a href="#actualites">Actualités</a>
+<a href="institution/">L'institution</a>
+<a href="chantiers/">Chantiers musicaux</a>
+<a href="observatoire/">Observatoire</a>
+<a href="annuaire/">Annuaire</a>
+<a href="actualites/">Actualités</a>
 <a href="#contact">Contact</a>
 </nav>
 <div style="display: flex; gap: 12px; align-items: center">
@@ -244,6 +62,7 @@ html{scroll-behavior:smooth}
 </div>
 </header>
 
+<main id="contenu">
 <!-- Héros -->
 <section id="accueil" style="background: var(--vert); color: var(--papier)">
 <div class="hero-grille" style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); min-height: 660px">
@@ -310,9 +129,9 @@ html{scroll-behavior:smooth}
 <p class="lead">Admis au Conseil international de la musique en 2003, le Cameroun s'est doté, à sa demande, d'une association nationale dédiée : le CCM, enregistré à Douala le 14 septembre 2009.</p>
 <p style="margin: 20px 0 0; font-size: 16px; max-width: 560px">Sa mission : structurer l'industrie musicale en veillant à l'épanouissement des acteurs, documenter et valoriser le patrimoine, encourager l'éducation musicale des jeunes, et défendre le statut et les droits des musiciens.</p>
 <div style="display: flex; gap: 24px; margin-top: 32px; flex-wrap: wrap">
-<a class="lien" href="#mission">Mission et objectifs</a>
+<a class="lien" href="institution/#mission">Mission et objectifs</a>
 <a class="lien" href="#gouvernance">Gouvernance</a>
-<a class="lien" href="#cinq-droits">Les cinq droits de la musique</a>
+<a class="lien" href="institution/#droits">Les cinq droits de la musique</a>
 </div>
 </div>
 <div class="grid2 rv" style="gap: 16px">
@@ -397,6 +216,19 @@ html{scroll-behavior:smooth}
 <p id="etape-chiffres" style="margin: 18px 0 0; font-size: 14px; font-weight: 600; color: var(--gris)"></p>
 </div>
 </article>
+</div>
+</section>
+
+<!-- Annuaire -->
+<section id="annuaire-accueil" aria-labelledby="annuaire-titre" style="background: #f7f1e5; border-top: 1px solid #e8dfcc; border-bottom: 1px solid #e8dfcc; padding: 80px 0">
+<div class="wrap grid2" style="align-items: center">
+<div class="rv">
+<p class="eyebrow">Annuaire des membres</p>
+<h2 id="annuaire-titre" class="h2">Trouvez un professionnel de la musique dans tout le Cameroun</h2>
+<p class="lead">54 membres titulaires de la carte du CCM, de Maroua à Kribi : promoteurs, producteurs, journalistes, éditeurs. Recherche par région, ville et métier.</p>
+<a class="btn btn-vert" href="annuaire/" style="margin-top: 28px">Consulter l'annuaire<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div class="rv" aria-hidden="true" style="display: flex; flex-wrap: wrap; padding-left: 14px; justify-content: center"><img src="assets/membres/000001.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"><img src="assets/membres/000002.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"><img src="assets/membres/000003.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"><img src="assets/membres/000004.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"><img src="assets/membres/000005.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"><img src="assets/membres/000009.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"><img src="assets/membres/000010.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"><img src="assets/membres/000011.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"><img src="assets/membres/000012.jpg" alt="" loading="lazy" width="64" height="78" style="width: 64px; height: 78px; object-fit: cover; border-radius: 6px; border: 2px solid #f7f1e5; margin-left: -14px; box-shadow: 0 6px 14px rgba(0,0,0,.18)"></div>
 </div>
 </section>
 
@@ -514,13 +346,13 @@ Votre navigateur ne lit pas cette vidéo.
 <p class="eyebrow">Publications</p>
 <h2 class="h2">Le document de référence de la filière</h2>
 </div>
-<a class="lien" href="#ressources-toutes">Toutes les publications</a>
+<a class="lien" href="chantiers/#contributeurs">Toutes les publications</a>
 </div>
 <div class="grid2" style="margin-top: 48px; gap: 32px">
 <article class="carte rv" style="flex-direction: row; gap: 28px; align-items: flex-start">
 <img src="assets/couv-fr.jpg" alt="Couverture du rapport en français" style="width: 150px; height: auto; border-radius: 4px; box-shadow: 0 8px 20px rgba(15,25,18,.18); flex-shrink: 0">
 <div style="display: flex; flex-direction: column; gap: 10px">
-<span class="tag" style="align-self: flex-start">Français · PDF · 144 pages</span>
+<span class="tag" style="align-self: flex-start">Français · PDF · 144 pages · 5 Mo</span>
 <h3 class="serif" style="margin: 0; font-size: 22px; line-height: 1.25">Introduction au schéma de développement de l'industrie musicale camerounaise</h3>
 <p style="margin: 0; font-size: 15px; color: var(--gris)">Cartographie des professionnels, habitudes d'écoute, chaînes de valeur, cadre réglementaire et recommandations.</p>
 <a class="btn btn-vert" href="docs/introduction-schema-developpement-industrie-musicale-camerounaise.pdf" download style="align-self: flex-start; margin-top: 6px">Télécharger</a>
@@ -529,7 +361,7 @@ Votre navigateur ne lit pas cette vidéo.
 <article class="carte rv" style="flex-direction: row; gap: 28px; align-items: flex-start">
 <img src="assets/couv-en.jpg" alt="Couverture du rapport en anglais" style="width: 150px; height: auto; border-radius: 4px; box-shadow: 0 8px 20px rgba(15,25,18,.18); flex-shrink: 0">
 <div style="display: flex; flex-direction: column; gap: 10px">
-<span class="tag" style="align-self: flex-start">English · PDF · 144 pages</span>
+<span class="tag" style="align-self: flex-start">English · PDF · 144 pages · 5 Mo</span>
 <h3 class="serif" style="margin: 0; font-size: 22px; line-height: 1.25" lang="en">Introduction to the Development Plan of the Cameroonian Music Industry</h3>
 <p style="margin: 0; font-size: 15px; color: var(--gris)">La version anglaise, pour les partenaires internationaux et les régions anglophones.</p>
 <a class="btn btn-contour" href="docs/introduction-development-plan-cameroonian-music-industry.pdf" download style="align-self: flex-start; margin-top: 6px">Download</a>
@@ -565,8 +397,8 @@ Votre navigateur ne lit pas cette vidéo.
 <div style="padding: 16px 0; border-bottom: 1px solid var(--filet)"><dt style="font-weight: 600">Comité consultatif et représentants régionaux</dt><dd style="margin: 4px 0 0; font-size: 15px; color: var(--gris)">Veille selon les bonnes pratiques du Conseil international de la musique ; relais dans les régions</dd></div>
 </dl>
 <div style="display: flex; gap: 24px; margin-top: 24px; flex-wrap: wrap">
-<a class="lien" href="#statuts">Statuts (PDF)</a>
-<a class="lien" href="#reglement">Règlement intérieur (PDF)</a>
+<a class="lien" href="mailto:infos@ccm-cmc.org?subject=Demande%20des%20statuts%20du%20CCM">Statuts (PDF)</a>
+<a class="lien" href="mailto:infos@ccm-cmc.org?subject=Demande%20du%20r%C3%A8glement%20int%C3%A9rieur%20du%20CCM">Règlement intérieur (PDF)</a>
 </div>
 </div>
 </div>
@@ -580,14 +412,14 @@ Votre navigateur ne lit pas cette vidéo.
 <p class="eyebrow">En images</p>
 <h2 id="galerie-titre" class="serif" style="margin: 0; font-size: 34px; color: var(--vert)">Les Chantiers musicaux en images</h2>
 </div>
-<a class="lien" href="#mediatheque">Toute la médiathèque</a>
+<a class="lien" href="chantiers/#galerie">Toute la médiathèque</a>
 </div>
 <div class="galerie rv" style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 210px; gap: 12px">
-<a href="#photo-1" style="grid-column: span 2; grid-row: span 2"><img class="photo" src="assets/groupe-chantiers.jpg" alt="Photo de groupe des participants" style="height: 100%; border-radius: 0"></a>
-<a href="#photo-2"><img class="photo" src="assets/yaounde-intervention.jpg" alt="Intervention devant les participants à Yaoundé" style="height: 100%; border-radius: 0"></a>
-<a href="#photo-3"><img class="photo" src="assets/yaounde-public.jpg" alt="Participants attentifs lors d'un atelier" style="height: 100%; border-radius: 0"></a>
-<a href="#photo-4"><img class="photo" src="assets/atelier-echanges.jpg" alt="Échanges entre professionnels pendant un atelier" style="height: 100%; border-radius: 0"></a>
-<a href="#photo-5"><img class="photo" src="assets/experts.jpg" alt="Experts et formateurs réunis" style="height: 100%; border-radius: 0"></a>
+<a href="chantiers/#galerie" style="grid-column: span 2; grid-row: span 2"><img class="photo" src="assets/groupe-chantiers.jpg" alt="Photo de groupe des participants" style="height: 100%; border-radius: 0"></a>
+<a href="chantiers/#galerie"><img class="photo" src="assets/yaounde-intervention.jpg" alt="Intervention devant les participants à Yaoundé" style="height: 100%; border-radius: 0"></a>
+<a href="chantiers/#galerie"><img class="photo" src="assets/yaounde-public.jpg" alt="Participants attentifs lors d'un atelier" style="height: 100%; border-radius: 0"></a>
+<a href="chantiers/#galerie"><img class="photo" src="assets/atelier-echanges.jpg" alt="Échanges entre professionnels pendant un atelier" style="height: 100%; border-radius: 0"></a>
+<a href="chantiers/#galerie"><img class="photo" src="assets/experts.jpg" alt="Experts et formateurs réunis" style="height: 100%; border-radius: 0"></a>
 </div>
 </div>
 </section>
@@ -617,23 +449,23 @@ Votre navigateur ne lit pas cette vidéo.
 <p class="eyebrow">Actualités</p>
 <h2 class="h2">La vie du Conseil</h2>
 </div>
-<a class="lien" href="#actualites-toutes">Toutes les actualités</a>
+<a class="lien" href="actualites/">Toutes les actualités</a>
 </div>
 <div class="grid3 galerie" style="margin-top: 48px">
 <article class="rv" style="display: flex; flex-direction: column; gap: 12px">
-<a href="#actu-1"><img class="photo" src="assets/experts.jpg" alt="Experts réunis pour la restitution" style="aspect-ratio: 16 / 10; border-radius: 0"></a>
+<a href="actualites/#restitution"><img class="photo" src="assets/experts.jpg" alt="Experts réunis pour la restitution" style="aspect-ratio: 16 / 10; border-radius: 0"></a>
 <p style="margin: 8px 0 0; font-size: 13px; color: var(--gris)">Juin 2024 · Publications</p>
-<h3 class="serif" style="margin: 0; font-size: 22px; line-height: 1.25"><a class="lien" href="#actu-1" style="color: var(--encre); display: inline">Le schéma de développement présenté aux pouvoirs publics à Yaoundé</a></h3>
+<h3 class="serif" style="margin: 0; font-size: 22px; line-height: 1.25"><a class="lien" href="actualites/#restitution" style="color: var(--encre); display: inline">Le schéma de développement présenté aux pouvoirs publics à Yaoundé</a></h3>
 </article>
 <article class="rv" style="display: flex; flex-direction: column; gap: 12px">
-<a href="#actu-2"><img class="photo" src="assets/presse.jpg" alt="Interview presse lors des Chantiers musicaux" style="aspect-ratio: 16 / 10; border-radius: 0"></a>
+<a href="actualites/#phase2"><img class="photo" src="assets/presse.jpg" alt="Interview presse lors des Chantiers musicaux" style="aspect-ratio: 16 / 10; border-radius: 0"></a>
 <p style="margin: 8px 0 0; font-size: 13px; color: var(--gris)">Mars 2024 · Formation</p>
-<h3 class="serif" style="margin: 0; font-size: 22px; line-height: 1.25"><a class="lien" href="#actu-2" style="color: var(--encre); display: inline">36 professionnels formés par des experts camerounais et internationaux</a></h3>
+<h3 class="serif" style="margin: 0; font-size: 22px; line-height: 1.25"><a class="lien" href="actualites/#phase2" style="color: var(--encre); display: inline">36 professionnels formés par des experts camerounais et internationaux</a></h3>
 </article>
 <article class="rv" style="display: flex; flex-direction: column; gap: 12px">
-<a href="#actu-3"><img class="photo" src="assets/douala-phase1.jpg" alt="Ouverture des Chantiers musicaux à Douala" style="aspect-ratio: 16 / 10; border-radius: 0"></a>
+<a href="actualites/#lancement"><img class="photo" src="assets/douala-phase1.jpg" alt="Ouverture des Chantiers musicaux à Douala" style="aspect-ratio: 16 / 10; border-radius: 0"></a>
 <p style="margin: 8px 0 0; font-size: 13px; color: var(--gris)">Février 2024 · Programmes</p>
-<h3 class="serif" style="margin: 0; font-size: 22px; line-height: 1.25"><a class="lien" href="#actu-3" style="color: var(--encre); display: inline">Lancement des Chantiers musicaux du Cameroun à Douala</a></h3>
+<h3 class="serif" style="margin: 0; font-size: 22px; line-height: 1.25"><a class="lien" href="actualites/#lancement" style="color: var(--encre); display: inline">Lancement des Chantiers musicaux du Cameroun à Douala</a></h3>
 </article>
 </div>
 </div>
@@ -653,8 +485,8 @@ Votre navigateur ne lit pas cette vidéo.
 </dl>
 <p style="margin: 16px 0 0; font-size: 14px; color: #f6dde2">Paiement Orange Money 690 939 633 · MTN MoMo 653 807 653. Contribution de soutien, matérielle ou financière, libre.</p>
 <div style="display: flex; gap: 16px; margin-top: 32px; flex-wrap: wrap">
-<a class="btn btn-ambre" href="#formulaire-adhesion">Demander ma carte de membre</a>
-<a class="btn btn-ligne" href="#partenariat">Devenir partenaire</a>
+<a class="btn btn-ambre" href="mailto:infos@ccm-cmc.org?subject=Demande%20de%20carte%20de%20membre%20du%20CCM&body=Nom%20et%20pr%C3%A9nom%20%3A%0AM%C3%A9tier%20%3A%0AR%C3%A9gion%20et%20ville%20%3A%0AT%C3%A9l%C3%A9phone%20%3A%0APersonne%20physique%20ou%20morale%20%3A%0A%0AMerci%20de%20joindre%20une%20photo%20d%27identit%C3%A9.">Demander ma carte de membre</a>
+<a class="btn btn-ligne" href="mailto:infos@ccm-cmc.org?subject=Partenariat%20avec%20le%20CCM">Devenir partenaire</a>
 </div>
 </div>
 
@@ -729,33 +561,34 @@ Votre navigateur ne lit pas cette vidéo.
 <p class="eyebrow">Partenaires</p>
 <h2 id="partenaires-titre" class="serif" style="margin: 0; font-size: 34px; color: var(--vert)">Ils accompagnent le Conseil</h2>
 </div>
-<a class="lien" href="#partenariat">Devenir partenaire</a>
+<a class="lien" href="mailto:infos@ccm-cmc.org?subject=Partenariat%20avec%20le%20CCM">Devenir partenaire</a>
 </div>
 <div class="logos" style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px">
-<a class="logo-carte rv" href="#partenaire-france" style="grid-column: span 2">
+<div class="logo-carte rv" style="grid-column: span 2">
 <span class="logo-type">Avec le soutien de</span>
 <img src="assets/france.png" alt="Ambassade de France au Cameroun et Institut français du Cameroun" style="max-height: 96px">
-</a>
-<a class="logo-carte rv" href="#partenaire-uphighlab">
+</div>
+<div class="logo-carte rv">
 <span class="logo-type">Partenaire</span>
 <img src="assets/uphighlab.png" alt="Up High Lab" style="max-height: 96px">
-</a>
-<a class="logo-carte rv" href="#partenaire-escale-bantoo">
+</div>
+<div class="logo-carte rv">
 <span class="logo-type">Partenaire</span>
 <img src="assets/escale-bantoo.png" alt="Escale Bantoo, Music Trade Shows" style="max-height: 110px">
-</a>
-<a class="logo-carte rv" href="#partenaire-kola">
+</div>
+<div class="logo-carte rv">
 <span class="logo-type">Partenaire</span>
 <img src="assets/kola.png" alt="Kola Consulting SARL" style="max-height: 100px">
-</a>
-<a class="logo-carte rv" href="#partenaire-kiki">
+</div>
+<div class="logo-carte rv">
 <span class="logo-type">Partenaire</span>
 <img src="assets/kiki.png" alt="KiKi Entertainment" style="max-height: 96px">
-</a>
+</div>
 </div>
 </div>
 </section>
 
+</main>
 <!-- Pied de page -->
 <footer id="contact" class="pied" style="background: var(--vert-nuit); color: #d6e2d9; font-size: 15px">
 <div class="wrap pied-grille" style="display: grid; grid-template-columns: 1.4fr 1fr 1fr 1.4fr; gap: 48px; padding-top: 72px; padding-bottom: 56px">
@@ -771,13 +604,13 @@ Bonamoussadi, Antenne Kotto<br>Douala, Cameroun<br>
 <nav aria-label="L'institution">
 <p style="margin: 0 0 16px; color: var(--papier); font-weight: 600">L'institution</p>
 <ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: 10px">
-<li><a href="#mission">Mission</a></li><li><a href="#gouvernance">Gouvernance</a></li><li><a href="#statuts">Statuts</a></li><li><a href="#presse">Presse</a></li>
+<li><a href="institution/#mission">Mission</a></li><li><a href="#gouvernance">Gouvernance</a></li><li><a href="mailto:infos@ccm-cmc.org?subject=Demande%20des%20statuts%20du%20CCM">Statuts</a></li><li><a href="actualites/">Presse</a></li>
 </ul>
 </nav>
 <nav aria-label="Agir">
 <p style="margin: 0 0 16px; color: var(--papier); font-weight: 600">Agir</p>
 <ul style="list-style: none; margin: 0; padding: 0; display: grid; gap: 10px">
-<li><a href="#programmes">Chantiers musicaux</a></li><li><a href="#observatoire">Observatoire</a></li><li><a href="#annuaire">Annuaire</a></li><li><a href="#adhesion">Adhésion</a></li>
+<li><a href="#programmes">Chantiers musicaux</a></li><li><a href="#observatoire">Observatoire</a></li><li><a href="annuaire/">Annuaire</a></li><li><a href="#adhesion">Adhésion</a></li>
 </ul>
 </nav>
 <form aria-label="Lettre d'information" style="display: flex; flex-direction: column; gap: 12px">
@@ -787,21 +620,20 @@ Bonamoussadi, Antenne Kotto<br>Douala, Cameroun<br>
 <input id="courriel" type="email" placeholder="votre@adresse.cm" style="flex: 1; min-width: 0; min-height: 48px; padding: 0 14px; border-radius: 4px; border: 1px solid #3d5a46; background: #0b3a1d; color: var(--papier)">
 <button type="submit" class="btn btn-ambre">S'inscrire</button>
 </div>
-<div style="display: flex; gap: 16px; margin-top: 12px; flex-wrap: wrap">
-<a href="#facebook">Facebook</a><a href="#x">X</a><a href="#youtube">YouTube</a><a href="#instagram">Instagram</a>
-</div>
+
 </form>
 </div>
 <div style="border-top: 1px solid #1d4a2c">
 <div class="wrap" style="display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 20px; padding-bottom: 20px; font-size: 13px">
 <span>© 2026 Conseil Camerounais de la Musique. Tous droits réservés.</span>
-<span style="display: flex; gap: 20px"><a href="#mentions">Mentions légales</a><a href="#confidentialite">Confidentialité</a><a href="#accessibilite">Accessibilité</a></span>
+<a href="annuaire/">Annuaire des membres</a>
 </div>
 </div>
 </footer>
 
 </div>
 
+<a class="whatsapp" href="https://wa.me/237690939633" target="_blank" rel="noopener" aria-label="Écrire au CCM sur WhatsApp"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.3a.4.4 0 0 0 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .1-1.3c0-.1-.2-.2-.5-.3z"/></svg><span>Écrire au CCM</span></a>
 <script>
 
 var CCM_GROUPES = {

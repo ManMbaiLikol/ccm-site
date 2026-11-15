@@ -1,0 +1,488 @@
+[
+ {
+  "num": "000001",
+  "nom": "NGADJUI TOKO DIEUDONNE",
+  "metier": "Entrepreneur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000001.jpg"
+ },
+ {
+  "num": "000002",
+  "nom": "NDUMBE EVA ROBERTYNE SOBIL",
+  "metier": "Entrepreneure culturelle",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000002.jpg"
+ },
+ {
+  "num": "000003",
+  "nom": "ELAME MOUKOKO CHRISTIAN THOMAS",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000003.jpg"
+ },
+ {
+  "num": "000004",
+  "nom": "LEUWE NGUEYEP CAROLE",
+  "metier": "Journaliste culturelle",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000004.jpg"
+ },
+ {
+  "num": "000005",
+  "nom": "ESSACK PHILIPPE",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000005.jpg"
+ },
+ {
+  "num": "000009",
+  "nom": "MAÏ NGIDJOL SALOMON OLIVIER",
+  "metier": "Entrepreneur culturel",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000009.jpg"
+ },
+ {
+  "num": "000010",
+  "nom": "KENMEGNI ALPHONSE JOEL",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000010.jpg"
+ },
+ {
+  "num": "000011",
+  "nom": "AMINA DJIBRILLA",
+  "metier": "Animatrice radio",
+  "region": "Extrême-Nord",
+  "ville": "Maroua",
+  "valide": "JANVIER 2027",
+  "photo": "000011.jpg"
+ },
+ {
+  "num": "000012",
+  "nom": "ASEM ASHU JOEL",
+  "metier": "Event organizer",
+  "region": "Sud-Ouest",
+  "ville": "Buea",
+  "valide": "JANVIER 2027",
+  "photo": "000012.jpg"
+ },
+ {
+  "num": "000013",
+  "nom": "AYINA RENÉ",
+  "metier": "Promoteur musical",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000013.jpg"
+ },
+ {
+  "num": "000014",
+  "nom": "BELINGA BONIFACE",
+  "metier": "Promoteur culturel",
+  "region": "Extrême-Nord",
+  "ville": "Maroua",
+  "valide": "JANVIER 2027",
+  "photo": "000014.jpg"
+ },
+ {
+  "num": "000015",
+  "nom": "BINAM BIKOI RUBEN KWAME",
+  "metier": "Producteur et promoteur culturel",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000015.jpg"
+ },
+ {
+  "num": "000016",
+  "nom": "EBAH ESSONGUE",
+  "metier": "Promoteur culturel",
+  "region": "Nord",
+  "ville": "Garoua",
+  "valide": "JANVIER 2027",
+  "photo": "000016.jpg"
+ },
+ {
+  "num": "000017",
+  "nom": "ENOBI PRINCE MICHAEL",
+  "metier": "Promoteur culturel",
+  "region": "Sud-Ouest",
+  "ville": "Buea",
+  "valide": "JANVIER 2027",
+  "photo": "000017.jpg"
+ },
+ {
+  "num": "000018",
+  "nom": "ANYIA NDZIE JEAN RAOUL",
+  "metier": "Distributeur / Éditeur",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000018.jpg"
+ },
+ {
+  "num": "000019",
+  "nom": "CHIFU FON FELIX",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000019.jpg"
+ },
+ {
+  "num": "000020",
+  "nom": "BONG HANS",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000020.jpg"
+ },
+ {
+  "num": "000021",
+  "nom": "MABOMA PAUL SERGE ABDOULAYE",
+  "metier": "Promoteur culturel",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000021.jpg"
+ },
+ {
+  "num": "000022",
+  "nom": "DIYANI BILL MUNYENGE",
+  "metier": "Producteur / Artiste",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000022.jpg"
+ },
+ {
+  "num": "000023",
+  "nom": "BABING-NE JERRY STEPHANE",
+  "metier": "Promoteur culturel",
+  "region": "Extrême-Nord",
+  "ville": "Maroua",
+  "valide": "JANVIER 2027",
+  "photo": "000023.jpg"
+ },
+ {
+  "num": "000024",
+  "nom": "PACHUMOH P. IBRAHIM KALIF",
+  "metier": "Promoteur culturel",
+  "region": "Adamaoua",
+  "ville": "Ngaoundéré",
+  "valide": "JANVIER 2027",
+  "photo": "000024.jpg"
+ },
+ {
+  "num": "000025",
+  "nom": "KAMPOER NZOUANGE HERVE DIDIER",
+  "metier": "Promoteur culturel",
+  "region": "Sud",
+  "ville": "Kribi",
+  "valide": "JANVIER 2027",
+  "photo": "000025.jpg"
+ },
+ {
+  "num": "000026",
+  "nom": "NGOCK TOUSSAINT",
+  "metier": "Promoteur culturel",
+  "region": "Est",
+  "ville": "Bertoua",
+  "valide": "JANVIER 2027",
+  "photo": "000026.jpg"
+ },
+ {
+  "num": "000027",
+  "nom": "PEPOUNA NSANGOU SOULEMANOU",
+  "metier": "Promoteur culturel",
+  "region": "Ouest",
+  "ville": "Foumbot",
+  "valide": "JANVIER 2027",
+  "photo": "000027.jpg"
+ },
+ {
+  "num": "000028",
+  "nom": "NGO MAKELE ELISABETH LILIANE",
+  "metier": "Promotrice culturelle",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000028.jpg"
+ },
+ {
+  "num": "000029",
+  "nom": "MEFE GUY MARC",
+  "metier": "Promoteur culturel",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000029.jpg"
+ },
+ {
+  "num": "000030",
+  "nom": "MONGOCHE JEAN",
+  "metier": "Promoteur de label",
+  "region": "Extrême-Nord",
+  "ville": "Maroua",
+  "valide": "JANVIER 2027",
+  "photo": "000030.jpg"
+ },
+ {
+  "num": "000031",
+  "nom": "MVENG ZOUAH MARTHE SUZANNE",
+  "metier": "Promotrice culturelle",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000031.jpg"
+ },
+ {
+  "num": "000032",
+  "nom": "YAKA NTOUBA NADINE GERARD",
+  "metier": "Entrepreneure culturelle",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000032.jpg"
+ },
+ {
+  "num": "000033",
+  "nom": "NGO NJOCK ANNIE JOSEE",
+  "metier": "Entrepreneure culturelle",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000033.jpg"
+ },
+ {
+  "num": "000034",
+  "nom": "NKOLO AFANDA EMMANUEL GODFROY R.",
+  "metier": "Promoteur culturel",
+  "region": "Extrême-Nord",
+  "ville": "Maroua",
+  "valide": "JANVIER 2027",
+  "photo": "000034.jpg"
+ },
+ {
+  "num": "000035",
+  "nom": "NOUADJE KAMGA CLAUDE",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000035.jpg"
+ },
+ {
+  "num": "000036",
+  "nom": "ONGMOUILI YOKO GHISLAINE",
+  "metier": "Entrepreneure culturelle",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000036.jpg"
+ },
+ {
+  "num": "000037",
+  "nom": "ANYIA JEAN RAOUL",
+  "metier": "Édition musicale",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000037.jpg"
+ },
+ {
+  "num": "000038",
+  "nom": "SIEWE YOUMENI VALERY",
+  "metier": "Technicien audiovisuel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000038.jpg"
+ },
+ {
+  "num": "000039",
+  "nom": "SIMO TCHATCHOUA IDE VANELLE",
+  "metier": "Journaliste",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000039.jpg"
+ },
+ {
+  "num": "000040",
+  "nom": "TIGAM TAO LILIANE",
+  "metier": "Promotrice culturelle",
+  "region": "Centre",
+  "ville": "Yaoundé / Soa",
+  "valide": "JANVIER 2027",
+  "photo": "000040.jpg"
+ },
+ {
+  "num": "000041",
+  "nom": "TAMEU PFEUDIE ISIDORE",
+  "metier": "Entrepreneur culturel",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000041.jpg"
+ },
+ {
+  "num": "000042",
+  "nom": "TIWO LACMAGO MACIN KABRE",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000042.jpg"
+ },
+ {
+  "num": "000043",
+  "nom": "ATANGCHE ZITA NGECHE",
+  "metier": "Promotrice culturelle",
+  "region": "Nord-Ouest",
+  "ville": "Bamenda",
+  "valide": "JANVIER 2027",
+  "photo": "000043.jpg"
+ },
+ {
+  "num": "000044",
+  "nom": "EYEBE SERGE RODRIGUE",
+  "metier": "Promoteur culturel",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000044.jpg"
+ },
+ {
+  "num": "000045",
+  "nom": "DIKOSSO AUGUSTINE CLAUDINE",
+  "metier": "Promotrice culturelle",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000045.jpg"
+ },
+ {
+  "num": "000046",
+  "nom": "NDONGO ELOKA PHILLIPE",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000046.jpg"
+ },
+ {
+  "num": "000047",
+  "nom": "ATANGANA NDONGO ESSOMBA MIKOULOU",
+  "metier": "Journaliste",
+  "region": "Sud",
+  "ville": "Sangmélima",
+  "valide": "JANVIER 2027",
+  "photo": "000047.jpg"
+ },
+ {
+  "num": "000048",
+  "nom": "MEKINDA NELSON",
+  "metier": "Producteur / Artiste",
+  "region": "Adamaoua",
+  "ville": "Ngaoundéré",
+  "valide": "JANVIER 2027",
+  "photo": "000048.jpg"
+ },
+ {
+  "num": "000049",
+  "nom": "DIBA DALE BELINDA RITA",
+  "metier": "Journaliste",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000049.jpg"
+ },
+ {
+  "num": "000050",
+  "nom": "AZAKAHA AARON",
+  "metier": "Producteur",
+  "region": "Extrême-Nord",
+  "ville": "Maroua",
+  "valide": "JANVIER 2027",
+  "photo": "000050.jpg"
+ },
+ {
+  "num": "000051",
+  "nom": "MBOUMOUA MBOUMOUA RENÉ",
+  "metier": "Producteur",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000051.jpg"
+ },
+ {
+  "num": "000052",
+  "nom": "YONGO FOWO CLARENCE HARDY",
+  "metier": "Journaliste",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000052.jpg"
+ },
+ {
+  "num": "000053",
+  "nom": "CHAPNDA NYA JULES TETA",
+  "metier": "Producteur / Manager",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000053.jpg"
+ },
+ {
+  "num": "000054",
+  "nom": "NTAKOU YOUTEN DIETMAR",
+  "metier": "Producteur",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000054.jpg"
+ },
+ {
+  "num": "000055",
+  "nom": "SINGYABE EMMANUEL",
+  "metier": "Producteur",
+  "region": "Nord",
+  "ville": "Garoua",
+  "valide": "JANVIER 2027",
+  "photo": "000055.jpg"
+ },
+ {
+  "num": "000056",
+  "nom": "VERKIJIKA NYUYKI DIVINE",
+  "metier": "Producteur",
+  "region": "Centre",
+  "ville": "Yaoundé",
+  "valide": "JANVIER 2027",
+  "photo": "000056.jpg"
+ },
+ {
+  "num": "000057",
+  "nom": "GUEMNIN RODERRICK VATIAL",
+  "metier": "Promoteur culturel",
+  "region": "Littoral",
+  "ville": "Douala",
+  "valide": "JANVIER 2027",
+  "photo": "000057.jpg"
+ }
+]

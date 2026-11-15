@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://manmbailikol.github.io/ccm-site/sitemap.xml
