@@ -85,7 +85,7 @@ html += f'''
 </div>
 </div>
 <div class="grid3" style="margin-top: 32px">
-''' + "".join(f'<div class="carte rv"><p class="chiffre-vert">{pct}</p><p style="margin: 0; font-size: 15px"><strong>{n}</strong> : {tot:,} personnes dans la population totale</p></div>\n'.replace(",", " ") for n, _, pct, tot in segments) + f'''</div>
+''' + "".join(f'<div class="carte rv"><p class="chiffre-vert">{pct}</p><p style="margin: 0; font-size: 15px"><strong>{n}</strong> : ' + f"{tot:,}".replace(",", "\u202f") + ' personnes dans la population totale</p></div>\n' for n, _, pct, tot in segments) + f'''
 </div>
 </section>
 
@@ -102,7 +102,7 @@ html += f'''
 <article class="carte rv" style="padding: 36px">
 <h3 class="serif" style="margin: 0; font-size: 24px">Les audiences</h3>
 <div style="display: grid; gap: 18px; margin-top: 8px">
-''' + "".join(f'<div><div style="display: flex; justify-content: space-between; font-size: 15px; margin-bottom: 6px"><span>{l}</span><strong>{v:,}</strong></div><div class="barre"><span style="width: {v/amax*100:.0f}%; background: var(--vert)"></span></div></div>\n'.replace(",", " ") for l, v in audiences) + f'''</div>
+''' + "".join('<div><div style="display: flex; justify-content: space-between; font-size: 15px; margin-bottom: 6px"><span>' + l + '</span><strong>' + f"{v:,}".replace(",", "\u202f") + f'</strong></div><div class="barre"><span style="width: {v/amax*100:.0f}%; background: var(--vert)"></span></div></div>\n' for l, v in audiences) + f'''
 </article>
 <article class="carte rv" style="padding: 36px; background: var(--bordeaux); border-color: var(--bordeaux); color: var(--papier); justify-content: center">
 <p class="serif" style="margin: 0; font-size: 80px; line-height: 1; color: var(--ambre)"><span data-compte="26996" data-dec="0">26 996</span></p>
@@ -204,7 +204,7 @@ def famille(m):
     return "Autres métiers"
 
 
-data = [dict(n=m["num"], nom=m["nom"], metier=m["metier"], fam=famille(m["metier"]), region=m["region"], ville=m["ville"], photo=m["photo"], valide=m["valide"].capitalize()) for m in membres]
+data = [dict(nom=m["nom"], metier=m["metier"], fam=famille(m["metier"]), region=m["region"], ville=m["ville"], photo=m["photo"], valide=m["valide"].capitalize()) for m in membres]
 regions = {}
 for d in data: regions[d["region"]] = regions.get(d["region"], 0) + 1
 rmax = max(regions.values())
@@ -265,14 +265,14 @@ var CCM_MEMBRES = ''' + json.dumps(data, ensure_ascii=False) + ''';
   function rendre() {
     var q = norm($('q').value.trim()), r = $('f-region').value, f = $('f-fam').value;
     var l = CCM_MEMBRES.filter(function (m) {
-      return (!r || m.region === r) && (!f || m.fam === f) && (!q || norm(m.nom + ' ' + m.metier + ' ' + m.ville + ' ' + m.region + ' ' + m.n).indexOf(q) > -1);
+      return (!r || m.region === r) && (!f || m.fam === f) && (!q || norm(m.nom + ' ' + m.metier + ' ' + m.ville + ' ' + m.region).indexOf(q) > -1);
     });
     $('resultat').textContent = l.length + (l.length > 1 ? ' membres' : ' membre') + (l.length === CCM_MEMBRES.length ? '' : ' sur ' + CCM_MEMBRES.length);
     $('liste').innerHTML = l.length ? l.map(function (m) {
-      var sujet = encodeURIComponent('Annuaire : mise en relation avec le membre n° ' + m.n + ' (' + m.nom + ')');
+      var sujet = encodeURIComponent('Annuaire : mise en relation avec ' + m.nom);
       return '<article class="membre">' +
         '<div class="membre-haut"><img src="../assets/membres/' + m.photo + '" alt="Photo de ' + esc(m.nom) + '" loading="lazy" width="86" height="106">' +
-        '<div><h3>' + esc(m.nom) + '</h3><p class="metier">' + esc(m.metier) + '</p><p class="num">N° ' + m.n + '</p></div></div>' +
+        '<div><h3>' + esc(m.nom) + '</h3><p class="metier">' + esc(m.metier) + '</p></div></div>' +
         '<div class="filet-tri" aria-hidden="true" style="padding:0 18px"><i></i><b style="background:#106938"></b><b style="background:#e21b19"></b><b style="background:#f2ea18"></b><i></i></div>' +
         '<div class="membre-bas"><span>' + esc(m.ville) + ' · ' + esc(m.region) + '</span><a href="mailto:infos@ccm-cmc.org?subject=' + sujet + '">Contacter</a></div></article>';
     }).join('') : '<p class="vide">Aucun membre ne correspond à cette recherche.</p>';

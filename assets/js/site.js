@@ -1,8 +1,9 @@
 /* Conseil Camerounais de la Musique — scripts communs des pages intérieures */
 (function () {
   'use strict';
+  var EN = (window.CCM_LANGUE || document.documentElement.lang) === 'en';
   var reduit = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function fmt(v, d) { return d ? v.toFixed(d).replace('.', ',') : Math.round(v).toLocaleString('fr-FR'); }
+  function fmt(v, d) { return d ? (EN ? v.toFixed(d) : v.toFixed(d).replace('.', ',')) : Math.round(v).toLocaleString(EN ? 'en-US' : 'fr-FR'); }
 
   /* Menu mobile */
   var mb = document.getElementById('menu-btn'), nav = document.getElementById('nav-principale');
@@ -10,7 +11,7 @@
     mb.addEventListener('click', function () {
       var ouvert = nav.classList.toggle('ouvert');
       mb.setAttribute('aria-expanded', String(ouvert));
-      mb.setAttribute('aria-label', ouvert ? 'Fermer le menu' : 'Ouvrir le menu');
+      mb.setAttribute('aria-label', EN ? (ouvert ? 'Close menu' : 'Open menu') : (ouvert ? 'Fermer le menu' : 'Ouvrir le menu'));
     });
   }
 
@@ -39,6 +40,6 @@
   if (form) form.addEventListener('submit', function (ev) {
     ev.preventDefault();
     var c = document.getElementById('courriel');
-    window.location.href = 'mailto:infos@ccm-cmc.org?subject=' + encodeURIComponent("Inscription à la lettre d'information") + '&body=' + encodeURIComponent('Adresse : ' + (c ? c.value : ''));
+    window.location.href = 'mailto:infos@ccm-cmc.org?subject=' + encodeURIComponent(EN ? 'Newsletter subscription' : "Inscription à la lettre d'information") + '&body=' + encodeURIComponent((EN ? 'Address: ' : 'Adresse : ') + (c ? c.value : ''));
   });
 })();

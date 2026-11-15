@@ -22,6 +22,8 @@ def tete(slug, titre, description, p="../"):
 <title>{titre} — Conseil Camerounais de la Musique</title>
 <meta name="description" content="{description}">
 <link rel="canonical" href="{SITE}{slug}/">
+<link rel="alternate" hreflang="fr" href="{SITE}{slug}/">
+<link rel="alternate" hreflang="en" href="{SITE}en/{slug}/">
 <meta property="og:title" content="{titre} — Conseil Camerounais de la Musique">
 <meta property="og:description" content="{description}">
 <meta property="og:image" content="{SITE}assets/partage-ccm.jpg">
@@ -45,7 +47,7 @@ def tete(slug, titre, description, p="../"):
 <a href="{p}annuaire/" style="color: #d6e2d9; text-decoration: none">Annuaire des professionnels</a>
 <div role="group" aria-label="Langue" style="display: flex; gap: 4px">
 <a href="./" aria-current="true" style="color: var(--ambre); font-weight: 700; text-decoration: none; padding: 4px 6px">FR</a>
-<a href="{p}en/" hreflang="en" lang="en" style="color: #d6e2d9; text-decoration: none; padding: 4px 6px">EN</a>
+<a href="{p}en/{slug}/" hreflang="en" lang="en" style="color: #d6e2d9; text-decoration: none; padding: 4px 6px">EN</a>
 </div>
 </div>
 </div>
